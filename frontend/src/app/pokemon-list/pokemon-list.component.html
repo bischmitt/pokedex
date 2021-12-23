@@ -1,0 +1,17 @@
+
+
+<!-- <app-pokemon-card *ngFor="let cadaPokemon of pokemons"></app-pokemon-card> -->
+
+<!-- <div *ngFor="let cadaPokemon of pokemons">
+  Pokemon: {{pokemons[cadaPokemon]}}
+</div> -->
+
+
+<h1 class="h1">Meus pokemons</h1>
+<div class="row d-flex justify-content-center text-center ">
+<app-pokemon-card class="col-3 m-3 pokemon" *ngFor="let cadaPokemon of pokemons; index as i"
+[pokemon]='cadaPokemon'
+[numero]='i+1'>
+</app-pokemon-card>
+</div>
+
