@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "pokemon-card.component.sass"
-    ],
-    "names": [],
-    "file": "pokemon-card.component.css"
-}
